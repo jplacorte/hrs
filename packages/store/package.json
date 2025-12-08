@@ -1,5 +1,5 @@
 {
-  "name": "@acme/store",
+  "name": "@ems/store",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -18,13 +18,13 @@
     "react-redux": "^9.1.2"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
-    "@acme/prettier-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@ems/eslint-config": "workspace:*",
+    "@ems/prettier-config": "workspace:*",
+    "@ems/tsconfig": "workspace:*",
     "@types/react": "catalog:react19",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@ems/prettier-config"
 }

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { Hamburger, Navbar } from "@acme/ui";
+import { Hamburger, Navbar } from "@ems/ui";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

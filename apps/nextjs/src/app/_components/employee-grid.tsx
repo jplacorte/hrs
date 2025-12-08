@@ -1,6 +1,8 @@
 "use client";
 
+import { IconButton } from "@ems/ui";
 import { useState } from "react";
+import { fa } from "zod/v4/locales";
 
 // --- DATA AND TYPES ---
 
@@ -285,7 +287,7 @@ function EmployeeCard({ employee }: { employee: Employee }) {
           </span>
           <a
             href={`mailto:${employee.email}`}
-            className="text-primary text-sm hover:underline"
+            className="text-blue-500 text-sm hover:underline"
           >
             {employee.email}
           </a>
@@ -429,12 +431,11 @@ export function EmployeeView() {
       </h2>
       <div className="mb-6 flex justify-end">
         <div className="inline-flex rounded-md border">
-          <button
+          <IconButton
+            icon={fa}
             onClick={() => setView("grid")}
             className={`rounded-l-md px-3 py-2 transition-colors ${view === "grid" ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-accent bg-transparent"}`}
-          >
-            <GridIcon />
-          </button>
+          />
           <button
             onClick={() => setView("table")}
             className={`rounded-r-md px-3 py-2 transition-colors ${view === "table" ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:bg-accent bg-transparent"}`}

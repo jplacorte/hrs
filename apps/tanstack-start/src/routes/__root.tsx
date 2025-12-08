@@ -10,9 +10,9 @@ import {
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 
-import type { AppRouter } from "@acme/api";
-import { ThemeProvider, ThemeToggle } from "@acme/ui/theme";
-import { Toaster } from "@acme/ui/toast";
+import type { AppRouter } from "@ems/api";
+import { ThemeProvider, ThemeToggle } from "@ems/ui/theme";
+import { Toaster } from "@ems/ui/toast";
 
 import appCss from "~/styles.css?url";
 
