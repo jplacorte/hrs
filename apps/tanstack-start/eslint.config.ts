@@ -9,5 +9,5 @@ export default defineConfig(
   },
   baseConfig,
   reactConfig,
-  restrictEnvAccess,
+  restrictEnvAccess
 );

@@ -33,7 +33,7 @@ export const restrictEnvAccess = defineConfig(
         },
       ],
     },
-  },
+  }
 );
 
 export const baseConfig = defineConfig(
@@ -84,5 +84,5 @@ export const baseConfig = defineConfig(
         tsconfigRootDir: import.meta.dirname,
       },
     },
-  },
+  }
 );

@@ -11,7 +11,6 @@ import superjson from "superjson";
 import { z, ZodError } from "zod/v4";
 
 import type { Auth } from "@acme/auth";
-import { db } from "@acme/db/client";
 
 /**
  * 1. CONTEXT
@@ -37,7 +36,6 @@ export const createTRPCContext = async (opts: {
   return {
     authApi,
     session,
-    db,
   };
 };
 /**

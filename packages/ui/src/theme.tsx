@@ -102,7 +102,7 @@ interface ThemeContextProps {
   toggleMode: () => void;
 }
 const ThemeContext = React.createContext<ThemeContextProps | undefined>(
-  undefined,
+  undefined
 );
 
 export function ThemeProvider({ children }: React.PropsWithChildren) {

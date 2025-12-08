@@ -7,5 +7,5 @@ export default defineConfig(
     ignores: ["script/**"],
   },
   baseConfig,
-  restrictEnvAccess,
+  restrictEnvAccess
 );
