@@ -1,7 +1,7 @@
 import { defineConfig } from "eslint/config";
 
 import { baseConfig, restrictEnvAccess } from "@ems/eslint-config/base";
-import { nextjsConfig } from "@ems/eslint-config/nextjs";
+import { emsAppConfig } from "@ems/eslint-config/ems-app";
 import { reactConfig } from "@ems/eslint-config/react";
 
 export default defineConfig(
@@ -10,6 +10,6 @@ export default defineConfig(
   },
   baseConfig,
   reactConfig,
-  nextjsConfig,
+  emsAppConfig,
   restrictEnvAccess
 );

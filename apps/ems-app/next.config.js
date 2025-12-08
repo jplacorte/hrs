@@ -13,6 +13,7 @@ const config = {
     "@ems/auth",
     "@ems/db",
     "@ems/ui",
+    "@ems/types",
     "@ems/validators",
   ],
 

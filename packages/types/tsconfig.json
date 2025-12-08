@@ -1,0 +1,9 @@
+{
+  "extends": "@ems/tsconfig/base.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "declaration": true
+  },
+  "include": ["src"]
+}

@@ -39,7 +39,7 @@ apps
   │   ├─ Navigation using Expo Router
   │   ├─ Tailwind CSS v4 using NativeWind v5
   │   └─ Typesafe API calls using tRPC
-  ├─ nextjs
+  ├─ ems-app
   │   ├─ Next.js 15
   │   ├─ React 19
   │   ├─ Tailwind CSS v4
