@@ -10,21 +10,8 @@ export function AuthShowcase() {
 
   if (!session) {
     return (
-      <Button
-        size="lg"
-        onClick={async () => {
-          const res = await authClient.signIn.social({
-            provider: "discord",
-            callbackURL: "/",
-          });
-          if (!res.data?.url) {
-            throw new Error("No URL returned from signInSocial");
-          }
-          await navigate({ href: res.data.url, replace: true });
-        }}
-      >
-        Sign in with Discord
-      </Button>
+      // TODO: Add sign-in methods
+      <></>
     );
   }
 
